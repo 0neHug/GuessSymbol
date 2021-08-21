@@ -17,7 +17,6 @@ public class FindAnswer : MonoBehaviour
     {
 
         textQuestion = GetComponent<Text>();
-        
 
     }
 
@@ -27,11 +26,6 @@ public class FindAnswer : MonoBehaviour
         textQuestion.text = "Find - " + takeSymbol.correctSymbol.nameSymbol;
 
         if (lerp > 0.9) { lerp = 1f; } else { lerp = Mathf.PingPong(Time.time, duration) / duration; }
-        textQuestion.color = Color.Lerp(StartColor, EndColor, lerp);
-      
-
-        
-
-
+        textQuestion.color = Color.Lerp(StartColor, EndColor, lerp);     
     }
 }

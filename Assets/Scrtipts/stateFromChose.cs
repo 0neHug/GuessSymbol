@@ -22,11 +22,9 @@ public class stateFromChose : MonoBehaviour
         if (takeSymbol.correctSymbol.nameSymbol + "_SymbolData" != shaked.name)
         {
             shaked.transform.DOShakePosition(0.3f, new Vector3(1f, 0f, 0f));
-            Debug.Log(takeSymbol.correctSymbol.nameSymbol + "_SymbolData" );
         }
         else 
         {
-            Debug.Log(takeSymbol.correctSymbol.nameSymbol + "_SymbolData" );
             nextLevel?.Invoke();
         }
     }

@@ -6,6 +6,4 @@ public class AllLevels : MonoBehaviour
 {
     [SerializeField]
     public List<LevelProp> Levels = new List<LevelProp>();
-
-   
 }

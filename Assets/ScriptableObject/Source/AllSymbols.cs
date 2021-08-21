@@ -5,9 +5,6 @@ using UnityEngine.Events;
 
 public class AllSymbols : MonoBehaviour
 {
-
-    
-
     [SerializeField]  
     public List<Symbols> DigitSymbols = new List<Symbols>();
 
@@ -19,12 +16,9 @@ public class AllSymbols : MonoBehaviour
 
     public Symbols correctSymbol;
 
-
-
     public void addSymbol(Symbols simbol)
     {
         inGameSymbols.Add(simbol);
-        
     }
 
     public void choseCorrect()

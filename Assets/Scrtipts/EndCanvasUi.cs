@@ -22,12 +22,10 @@ public class EndCanvasUi : MonoBehaviour
         for (int i = 0; i < Symbols.Count; i++)
         {
             Symbols[i].stateAnswer = false;
-            Debug.Log("eeeeeeeeeeee");
+            
         }
 
     }
-
-   
 
     public void RestartScene()
 
